@@ -1,8 +1,0 @@
-#include <stdio.h>
-#include <sys/stat.h>
-
-int main(){
-  struct stat * metadata;
-  stat(testFile.txt,metadata);
-  printf("%d",metadata->st_size);
-}
